@@ -5,8 +5,8 @@ function isPrime(...numbers) {
        
         let prime=true
 
-        if(numbers[j]==1 || numbers[j]==0){
-            console.log("lütfen geçerli bir sayı girin")
+        if(numbers[j]<=1){
+            console.log(numbers[j] + " sayısı geçersizdir. Lütfen geçerli bir sayı girin!")
         
            }else{
 
@@ -28,6 +28,6 @@ function isPrime(...numbers) {
       
 }
 
-isPrime(3)
-isPrime(10,43,32,79)
-isPrime(11,5,20,100,1000)
+isPrime(-10)
+isPrime(10,43,32,79,1)
+isPrime(0,11,5,20,100,1000)
