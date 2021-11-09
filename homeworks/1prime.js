@@ -1,10 +1,10 @@
 
 function isPrime(...numbers) {
    
-    let prime=true
-
     for (let j = 0; j < numbers.length; j++) {
-         
+       
+        let prime=true
+
         if(numbers[j]==1 || numbers[j]==0){
             console.log("lütfen geçerli bir sayı girin")
         
@@ -18,11 +18,7 @@ function isPrime(...numbers) {
                   prime=false
                   break
                 }
-                else{
-                  prime=true
-                }
-              }  
-         
+             }  
           if(prime==true)  
           {
               console.log(numbers[j] + " sayısı asaldir.")
